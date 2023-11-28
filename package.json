@@ -1,11 +1,13 @@
 {
-  "name": "ejemplo",
+  "name": "ta34",
   "version": "1.0.0",
   "description": "ejemplo de npm en contexto de js",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./app.js"
+    "start": "node ./build/src/main.js",
+    "build": "tsc",
+    "dev": "tsc --watch"
   },
   "keywords": [
     "npm",
